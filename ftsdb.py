@@ -1,4 +1,9 @@
-import sqlite3
+# Kludge for webfaction. See
+# https://dubiousdod.org/indie/2015/04/how-to-really-install-latest-sqlite3-for-python-on
+try:
+    from pysqlite2 import dbapi2 as sqlite3
+except:
+    import sqlite3
 import os.path
 import logging
 import struct
