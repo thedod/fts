@@ -1,3 +1,8 @@
+This fork also adds websearch.py web gateway
+you can use as a cgi script
+(requires web.py - http://webpy.org/).
+See webconfig-example.py for details
+========================================
 a command-line full-text search engine
 
 Quickstart
