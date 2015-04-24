@@ -6,7 +6,7 @@
 # You can use https://github.com/aaronsw/html2text to convert.
 # Create a text/ folder where html/ is, and do:
 #   for f in html/*htm ; do
-#       html2text.py  "$f" utf-8 > "text/$(basename "$f" htm)txt"
+#       html2text.py  --ignore-links --ignore-images "$f" utf-8 > "text/$(basename "$f" htm)txt"
 #   done
 # Then create the fts db there:
 #   cd text
